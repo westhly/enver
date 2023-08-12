@@ -1,0 +1,297 @@
+html {
+    font-size: 16px;
+    background-color: #19191B
+}
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+Header {
+    
+    display: flex;
+    
+    align-items: center;
+    padding: 1rem 4rem;
+    justify-content:space-between;
+    
+}
+header p {
+    color: #ffffff;
+    padding-left: 0.5rem;
+   
+}
+.logoheader {
+    
+    display: flex; 
+    align-content: center;
+    align-items: center;
+}
+
+.linknav {
+    text-decoration: none;
+    color:  #FFFFFFB2;
+}
+.menunav {
+    display: flex;  
+    align-items: center;
+}
+
+.listmenu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.list2menu {
+    display: flex;
+    gap: 3rem;
+    align-content: center;
+    align-items: center;
+}
+.list2menu a:hover {
+    color: #5454D4;
+    transition: 0.5s;
+}
+.contactbutton {
+    color: #ffffff;
+    background-color:  #19191B;
+    display: flex;
+    padding: 0.3rem 1.6rem 0.5rem;
+    border: 0.1rem solid #ffffff;
+    border-radius: 0.3rem;
+}
+
+.sect1 {
+    
+    display: flex;
+    justify-content: center;
+    padding: 1rem 4rem;
+    padding-bottom: 5rem;
+}
+.artiz  {
+    
+    font-size: 3rem;
+    padding-left: 0;
+    padding-right: 0;
+    margin-block-start: 5rem;
+    margin-inline-end: 3rem;
+    
+   
+}
+.artiz h1 {
+    color: #ffffff;
+    font-family: graphik;
+    line-height: 4rem;
+}
+.artiz p {
+    color: #FFFFFFB2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-block-start: 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.artiz button {
+    color: #ffffff;
+    background-color: #5454D4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7rem 1.2rem ;
+    border-radius: 0.3rem;
+    border-color: transparent;
+}
+
+.artiz button img {
+    margin-left: 0.4rem;
+}
+
+.sect2 .arttext {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.sect2 .arttext .arttex1{
+
+    margin: 1rem  1rem 1rem 3rem;
+    padding: 1rem 12rem 1rem 1rem;
+}
+.sect2 .arttext .arttex2{
+    padding: 0rem 7rem 1rem 3rem;
+}
+
+.sect2  h1{
+    font-size: 2.5rem;
+    color: #ffffff;
+
+}
+.sect2 p{
+    text-align: start;
+}
+.sect2 .artvideo{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+
+.sect3 .titulosect3 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: #ffffff;
+
+}
+.sect3 h1 {
+    padding: 0 6rem;
+    margin: 0 13rem;
+}
+
+.inffile1, .inffile2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 4rem ;
+    
+}
+
+.artdev, .artuiux, .artgrap, .artmoti, .artphog, .artvid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    padding: 3rem 4rem;
+}
+
+.inffile1, .inffile2, figure img, p{
+    margin: 0.5rem;
+    text-align: center;
+    color: #FFFFFFB2;
+
+}
+.inffile1, .inffile2, h3{
+    color: #ffffff;
+}
+
+.sect4 .textart {
+    display: flex;
+    margin: 1rem  1rem 1rem 3rem;
+    padding: 1rem 12rem 1rem 1rem;
+
+}
+
+.sect4  h1{
+    font-size: 2.5rem;
+    color: #ffffff;
+
+}
+
+.sect4 .reel{
+    display: flex;
+    margin: 1rem  1rem 1rem 3rem;
+    padding: 1rem 12rem 1rem 1rem;
+}
+.sect4 .reel .fig2{
+    padding-top: 4rem;
+}
+
+.sect4 .reel .fig3{
+    padding-top: 8rem;
+}
+
+.sect5  {
+    display: flex;
+    background: #1E1E2080;
+
+    align-items: center;
+    padding: 9rem 0;
+
+}
+.sect5 .sect5art{
+    margin: 1rem  1rem 1rem 3rem;
+    padding: 1rem 12rem 1rem 1rem;
+    
+}
+.sect5  h1{
+    font-size: 2.5rem;
+    color: #ffffff;
+    
+}
+.sect5 .sect5button{
+    padding-left: 8rem;
+}
+.sect5 button{
+    color: #ffffff;
+    background-color: #5454D4;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7rem 1.2rem ;
+    border-radius: 0.3rem;
+    border-color: transparent;
+}
+
+footer {
+    
+    display: flex;
+    
+    align-items: center;
+    padding: 1rem 4rem;
+    justify-content:space-between;
+    
+}
+footer p {
+    color: #ffffff;
+    padding-left: 0.5rem;
+   
+}
+footer div p{
+    color:  #FFFFFFB2;;
+}
+.logofooter {
+    
+    display: flex; 
+    align-content: center;
+    align-items: center;
+}
+
+.linknav {
+    text-decoration: none;
+    color:  #FFFFFFB2;
+}
+.menunav {
+    display: flex;  
+    align-items: center;
+}
+
+.listmenu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.list2menu {
+    display: flex;
+    gap: 3rem;
+    align-content: center;
+    align-items: center;
+}
+.list2menu a:hover {
+    color: #5454D4;
+    transition: 0.5s;
+}
+
+/* .artdev, .artuiux, .artgrap, .artmoti, .artphog, .artvid {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+
+
+/* @media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1023px) {
+    header {
+        background-color: #5454D4;
+    }
+    
+} */
+
